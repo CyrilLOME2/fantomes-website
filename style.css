@@ -7,17 +7,25 @@ body {
     background-color: #ffffff;
     color: #EDCC3F;
     margin: 0;
+    background-image: url("petage-jacobins.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 section {
-    min-height: 400px;
+    min-height: 90vh;
 }
 
 h1 {
-    font-family: Nova Flat;
+    font-family: 'Special Elite';
+    font-size: 26px;
     color: #EDCC3F;
     text-align: center;
     margin-bottom: 20px;
+    font-weight: normal;
 }
 
 h2 {
@@ -73,6 +81,13 @@ dark #22332D
     padding: 10px 0;
     background-color: #14132D;
     color: #EDCC3F;
+    z-index: 2;
+}
+
+.header-content {
+    text-align: center;
+    font-size: 30px;
+    padding: 0.2em;
 }
 
 /* ------------------------------------------------------------------
@@ -80,7 +95,7 @@ dark #22332D
  ------------------------------------------------------------------ */
 
  #content {
-    margin-top: 40px;
+    margin-top: 60px;
 } 
 
 section .section-content {
@@ -94,6 +109,13 @@ section .section-content {
 /* ----------- Presentation SECTION STYLE ----------- */
 #presentation {
     font-family: 'Fredericka the Great';
+}
+
+.big-title {
+    font-size: 120px;
+    position: absolute;
+    top: 45%;
+    line-height: 1.2em;
 }
 
 /* ----------- About-Us SECTION STYLE ----------- */
@@ -170,6 +192,10 @@ span.next a:hover {
     padding: 10px 0;
     background-color: #14132D;
     color: #E9EAE5;
+}
+
+.footer-content {
+    text-align: center;
 }
 
 #footer a {
