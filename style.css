@@ -3,7 +3,7 @@
  ------------------------------------------------------------------ */
 
 body {
-    font-family: Nova Flat; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    font-family: 'Lacquer'; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
     background-color: #ffffff;
     color: #EDCC3F;
     margin: 0;
@@ -92,6 +92,9 @@ section .section-content {
 }
 
 /* ----------- Presentation SECTION STYLE ----------- */
+#presentation {
+    font-family: 'Fredericka the Great';
+}
 
 /* ----------- About-Us SECTION STYLE ----------- */
 
@@ -159,6 +162,7 @@ span.next a:hover {
  ------------------------------------------------------------------ */
  
  #footer {
+     font-family: 'Special Elite';
     position: relative;
     left: 0;
     bottom: 0;
