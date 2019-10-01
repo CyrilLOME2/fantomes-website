@@ -29,9 +29,11 @@ h1 {
 }
 
 h2 {
-    font-family: Nova Flat;
-    color: #669A23;
+    font-family: 'Special Elite';
+    color: #EDCC3F;
     text-align: center;
+    font-weight: normal;  
+    font-size: 20;
 }
 
 h3, h4 {
@@ -42,9 +44,11 @@ h3, h4 {
 }
 
 p {
-    font-family: Aldrich; font-weight: 300;
-    /* font-size: 18px; */
+    /*font-family: Aldrich;*/
+    font-weight: 400;
+    font-size: 16px;
     line-height: 24px;
+    font-family: 'Garamond';
 }
 
 i {
@@ -102,7 +106,7 @@ section .section-content {
     max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
-    padding: 30px;
+    padding: 30px 0;
     text-align: start;
 }
 
@@ -124,22 +128,20 @@ section .section-content {
     background-color: #14132D;
 }
 
+#about-us p {
+    color: #ffffff;
+}
+
 /* ----------- Nos-Membres SECTION STYLE ----------- */
 
 #nos-membres {
     background-color: #ffffff;
 }
 
-/* ----------- Nos-Prestations SECTION STYLE ----------- */
-
-#nos-prestations {
-    background-color: #6E0B14;
-}
-
 /* ----------- Contact SECTION STYLE ----------- */
 
 #contact {
-    background-color: #14132D;
+    background-color: #6E0B14;
 }
 
 
@@ -201,4 +203,21 @@ span.next a:hover {
 #footer a {
     color: #6E0B14;
     text-decoration: none;
+}
+
+/* ------------------------------------------------------------------
+                 FLEX LAYOUT
+ ------------------------------------------------------------------ */
+
+.columns-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.large-6 {
+    flex: 0 1 50%; 
+}
+
+.large-6 p, .large-6 h2{
+    padding: 0 0.8em;
 }
