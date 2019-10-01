@@ -1,16 +1,21 @@
+/* ------------------------------------------------------------------
+                 GENERAL STYLE 
+ ------------------------------------------------------------------ */
 
 body {
     font-family: Nova Flat; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
-    background-color: #22332D;
+    background-color: #ffffff;
+    color: #EDCC3F;
+    margin: 0;
 }
 
-nav {
-    font-weight: 600;
+section {
+    min-height: 400px;
 }
 
 h1 {
     font-family: Nova Flat;
-    color: #957B54;
+    color: #EDCC3F;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -44,7 +49,7 @@ b {
 }
 
 a {
-    color: #957B54;
+    color: #6E0B14;
     text-decoration: none;
 }
 
@@ -56,28 +61,63 @@ lightbrown #957B54
 dark #22332D
 */
 
-/* ----------- HEADER STYLE ----------- */
-/* #header {
+/* ------------------------------------------------------------------
+                 HEADER STYLE 
+ ------------------------------------------------------------------ */
+
+#header {
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-    padding: 10px;
-    background-color: #3b5998;
-} */
+    padding: 10px 0;
+    background-color: #14132D;
+    color: #EDCC3F;
+}
 
-/* ----------- CONTENT STYLE ----------- */
-#content {
+/* ------------------------------------------------------------------
+                 CONTENT STYLE 
+ ------------------------------------------------------------------ */
+
+ #content {
+    margin-top: 40px;
+} 
+
+section .section-content {
     max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
     padding: 30px;
     text-align: start;
-    color: #E9EAE5;
-    margin-top: 40px;
-
-    /* background-color: #d8dfea; */
 }
+
+/* ----------- Presentation SECTION STYLE ----------- */
+
+/* ----------- About-Us SECTION STYLE ----------- */
+
+#about-us {
+    background-color: #14132D;
+}
+
+/* ----------- Nos-Membres SECTION STYLE ----------- */
+
+#nos-membres {
+    background-color: #ffffff;
+}
+
+/* ----------- Nos-Prestations SECTION STYLE ----------- */
+
+#nos-prestations {
+    background-color: #6E0B14;
+}
+
+/* ----------- Contact SECTION STYLE ----------- */
+
+#contact {
+    background-color: #14132D;
+}
+
+
 
 span.next a {
     padding: 8px;
@@ -114,18 +154,21 @@ span.next a:hover {
     flex : 1 1 75%;
 }
 
-/* ----------- FOOTER STYLE ----------- */
-#footer {
+/* ------------------------------------------------------------------
+                 FOOTER STYLE 
+ ------------------------------------------------------------------ */
+ 
+ #footer {
     position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: 10px;
-    background-color: #22332D;
+    padding: 10px 0;
+    background-color: #14132D;
     color: #E9EAE5;
 }
 
 #footer a {
-    color: #669A23;
+    color: #6E0B14;
     text-decoration: none;
 }
