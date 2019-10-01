@@ -1,0 +1,131 @@
+
+body {
+    font-family: Nova Flat; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    background-color: #22332D;
+}
+
+nav {
+    font-weight: 600;
+}
+
+h1 {
+    font-family: Nova Flat;
+    color: #957B54;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: Nova Flat;
+    color: #669A23;
+    text-align: center;
+}
+
+h3, h4 {
+    font-family: Orbitron;
+    color: #838A8C;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: Aldrich; font-weight: 300;
+    /* font-size: 18px; */
+    line-height: 24px;
+}
+
+i {
+    color: #838A8C;
+}
+
+b {
+    color: #669A23;
+    font-weight: 400;
+}
+
+a {
+    color: #957B54;
+    text-decoration: none;
+}
+
+/* 
+white #E9EAE5
+gray #838A8C
+green #669A23
+lightbrown #957B54
+dark #22332D
+*/
+
+/* ----------- HEADER STYLE ----------- */
+/* #header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #3b5998;
+} */
+
+/* ----------- CONTENT STYLE ----------- */
+#content {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    text-align: start;
+    color: #E9EAE5;
+    margin-top: 40px;
+
+    /* background-color: #d8dfea; */
+}
+
+span.next a {
+    padding: 8px;
+    border: #957B54 2px solid;
+    border-radius: 10px;
+    color: #22332D;
+    background-color: #957B54;
+    font-family: Orbitron;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+span.next a:hover {
+    padding: 10px;
+    border-color: #E9EAE5;
+    color: #22332D;
+    background-color: #E9EAE5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.image-container img {
+    flex : 0 1 20%;
+}
+
+.image-container div {
+    padding-left: 10px;
+    flex : 1 1 75%;
+}
+
+/* ----------- FOOTER STYLE ----------- */
+#footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #22332D;
+    color: #E9EAE5;
+}
+
+#footer a {
+    color: #669A23;
+    text-decoration: none;
+}
