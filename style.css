@@ -12,7 +12,7 @@ body {
     background-color: #ffffff;
     color: #EDCC3F;
     margin: 0;
-    background-image: url("petage-jacobins.jpg");
+    background-image: url("img/petage-jacobins.jpg");
     background-size: cover;
     background-repeat: repeat-x;
     background-attachment: fixed;
@@ -22,6 +22,10 @@ body {
 
 section {
     min-height: 90vh;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.5em;
 }
 
 h1 {
@@ -68,8 +72,8 @@ i {
 }
 
 b {
-    color: #669A23;
-    font-weight: 400;
+    color: #EDCC3F;
+    font-weight: normal;
 }
 
 a {
@@ -103,8 +107,8 @@ dark #22332D
 .header-content {
     text-align: center;
     font-size: 30px;
-    padding: 0.4em;
     font-family: 'Lacquer';
+    line-height: 1.5em;
 }
 
 /* ------------------------------------------------------------------
@@ -131,7 +135,7 @@ section .section-content {
 .big-title {
     font-size: 120px;
     position: absolute;
-    top: 45%;
+    top: 20%;
     line-height: 1.2em;
 }
 
@@ -211,6 +215,7 @@ span.next a:hover {
 
 .footer-content {
     text-align: center;
+    line-height: 1.5em;
 }
 
 #footer a {
@@ -229,7 +234,7 @@ span.next a:hover {
 }
 
 .columns-container > div {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .columns-container p, .columns-container h2{
@@ -255,7 +260,7 @@ span.next a:hover {
 
 .avatar {
     border-radius: 100%;
-    width: 90%;
+    width: 85%;
     display: block;
     margin-left: auto;
     margin-right: auto;
