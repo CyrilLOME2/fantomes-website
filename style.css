@@ -3,7 +3,12 @@
  ------------------------------------------------------------------ */
 
 body {
-    font-family: 'Lacquer'; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    font-family: 'Special Elite';
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1em;
     background-color: #ffffff;
     color: #EDCC3F;
     margin: 0;
@@ -20,11 +25,11 @@ section {
 }
 
 h1 {
-    font-family: 'Special Elite';
-    font-size: 26px;
+    font-family: 'Lacquer';
+    font-size: 46px;
     color: #EDCC3F;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 1.3em 0 2em 0;
     font-weight: normal;
 }
 
@@ -33,7 +38,8 @@ h2 {
     color: #EDCC3F;
     text-align: center;
     font-weight: normal;  
-    font-size: 20;
+    font-size: 24px;
+    padding-bottom: 1em;
 }
 
 h3, h4 {
@@ -46,9 +52,7 @@ h3, h4 {
 p {
     /*font-family: Aldrich;*/
     font-weight: 400;
-    font-size: 16px;
     line-height: 24px;
-    font-family: 'Garamond';
 }
 
 i {
@@ -91,7 +95,8 @@ dark #22332D
 .header-content {
     text-align: center;
     font-size: 30px;
-    padding: 0.2em;
+    padding: 0.4em;
+    font-family: 'Lacquer';
 }
 
 /* ------------------------------------------------------------------
@@ -106,7 +111,7 @@ section .section-content {
     max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
-    padding: 30px 0;
+    padding: 5px 0 30px 0;
     text-align: start;
 }
 
@@ -214,10 +219,15 @@ span.next a:hover {
     flex-flow: row wrap;
 }
 
+.columns-container p, .columns-container h2{
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}
+
 .large-6 {
     flex: 0 1 50%; 
 }
 
-.large-6 p, .large-6 h2{
-    padding: 0 0.8em;
+.large-4 {
+    flex: 0 1 33%;  
 }
