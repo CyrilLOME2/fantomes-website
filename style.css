@@ -12,7 +12,7 @@ body {
     background-color: #ffffff;
     color: #EDCC3F;
     margin: 0;
-    background-image: url("petage-jacobins.jpg");
+    background-image: url("img/petage-jacobins.jpg");
     background-size: cover;
     background-repeat: repeat-x;
     background-attachment: fixed;
@@ -22,6 +22,10 @@ body {
 
 section {
     min-height: 90vh;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.5em;
 }
 
 h1 {
@@ -39,14 +43,22 @@ h2 {
     text-align: center;
     font-weight: normal;  
     font-size: 24px;
-    padding-bottom: 1em;
 }
 
-h3, h4 {
-    font-family: Orbitron;
-    color: #838A8C;
+h3 {
+    color: #14132D;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 1em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'Lacquer';
+    color: #6E0B14;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 18px;
 }
 
 p {
@@ -60,12 +72,16 @@ i {
 }
 
 b {
-    color: #669A23;
-    font-weight: 400;
+    color: #EDCC3F;
+    font-weight: normal;
 }
 
-a {
+a.red-link {
     color: #6E0B14;
+    text-decoration: none;
+}
+a.yellow-link {
+    color: #EDCC3F;
     text-decoration: none;
 }
 
@@ -95,8 +111,21 @@ dark #22332D
 .header-content {
     text-align: center;
     font-size: 30px;
-    padding: 0.4em;
     font-family: 'Lacquer';
+    line-height: 1.5em;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 1.4em;
+}
+
+.site-title {
+    flex-basis: 80%;
+}
+
+.logo-link {
+    cursor: pointer;
+    height: 100%;
+    flex-basis: 10%;
 }
 
 /* ------------------------------------------------------------------
@@ -123,8 +152,9 @@ section .section-content {
 .big-title {
     font-size: 120px;
     position: absolute;
-    top: 45%;
+    top: 20%;
     line-height: 1.2em;
+    padding: 0 20px;
 }
 
 /* ----------- About-Us SECTION STYLE ----------- */
@@ -147,6 +177,14 @@ section .section-content {
 
 #contact {
     background-color: #6E0B14;
+}
+
+.contact-content {
+    padding: 10px;
+}
+
+#contact p {
+    color: #ffffff;
 }
 
 
@@ -191,7 +229,7 @@ span.next a:hover {
  ------------------------------------------------------------------ */
  
  #footer {
-     font-family: 'Special Elite';
+    font-family: 'Special Elite';
     position: relative;
     left: 0;
     bottom: 0;
@@ -203,6 +241,7 @@ span.next a:hover {
 
 .footer-content {
     text-align: center;
+    line-height: 1.5em;
 }
 
 #footer a {
@@ -217,6 +256,11 @@ span.next a:hover {
 .columns-container {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+}
+
+.columns-container > div {
+    margin-bottom: 50px;
 }
 
 .columns-container p, .columns-container h2{
@@ -230,4 +274,31 @@ span.next a:hover {
 
 .large-4 {
     flex: 0 1 33%;  
+}
+
+.large-3 {
+    flex: 0 1 25%;  
+}
+
+/* ------------------------------------------------------------------
+                 IMAGE STYLE
+ ------------------------------------------------------------------ */
+
+.avatar {
+    border-radius: 100%;
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    height: 100%;
+}
+
+.large-image {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
