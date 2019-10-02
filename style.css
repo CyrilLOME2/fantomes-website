@@ -1,24 +1,45 @@
+/* ------------------------------------------------------------------
+                 GENERAL STYLE 
+ ------------------------------------------------------------------ */
 
 body {
-    font-family: Nova Flat; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
-    background-color: #22332D;
+    font-family: 'Special Elite';
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1em;
+    background-color: #ffffff;
+    color: #EDCC3F;
+    margin: 0;
+    background-image: url("petage-jacobins.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
 }
 
-nav {
-    font-weight: 600;
+section {
+    min-height: 90vh;
 }
 
 h1 {
-    font-family: Nova Flat;
-    color: #957B54;
+    font-family: 'Lacquer';
+    font-size: 46px;
+    color: #EDCC3F;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 1.3em 0 2em 0;
+    font-weight: normal;
 }
 
 h2 {
-    font-family: Nova Flat;
-    color: #669A23;
+    font-family: 'Special Elite';
+    color: #EDCC3F;
     text-align: center;
+    font-weight: normal;  
+    font-size: 24px;
+    padding-bottom: 1em;
 }
 
 h3, h4 {
@@ -29,8 +50,8 @@ h3, h4 {
 }
 
 p {
-    font-family: Aldrich; font-weight: 300;
-    /* font-size: 18px; */
+    /*font-family: Aldrich;*/
+    font-weight: 400;
     line-height: 24px;
 }
 
@@ -44,7 +65,7 @@ b {
 }
 
 a {
-    color: #957B54;
+    color: #6E0B14;
     text-decoration: none;
 }
 
@@ -56,28 +77,79 @@ lightbrown #957B54
 dark #22332D
 */
 
-/* ----------- HEADER STYLE ----------- */
-/* #header {
+/* ------------------------------------------------------------------
+                 HEADER STYLE 
+ ------------------------------------------------------------------ */
+
+#header {
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-    padding: 10px;
-    background-color: #3b5998;
-} */
+    padding: 10px 0;
+    background-color: #14132D;
+    color: #EDCC3F;
+    z-index: 2;
+}
 
-/* ----------- CONTENT STYLE ----------- */
-#content {
+.header-content {
+    text-align: center;
+    font-size: 30px;
+    padding: 0.4em;
+    font-family: 'Lacquer';
+}
+
+/* ------------------------------------------------------------------
+                 CONTENT STYLE 
+ ------------------------------------------------------------------ */
+
+ #content {
+    margin-top: 60px;
+} 
+
+section .section-content {
     max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
-    padding: 30px;
+    padding: 5px 0 30px 0;
     text-align: start;
-    color: #E9EAE5;
-    margin-top: 40px;
-
-    /* background-color: #d8dfea; */
 }
+
+/* ----------- Presentation SECTION STYLE ----------- */
+#presentation {
+    font-family: 'Fredericka the Great';
+}
+
+.big-title {
+    font-size: 120px;
+    position: absolute;
+    top: 45%;
+    line-height: 1.2em;
+}
+
+/* ----------- About-Us SECTION STYLE ----------- */
+
+#about-us {
+    background-color: #14132D;
+}
+
+#about-us p {
+    color: #ffffff;
+}
+
+/* ----------- Nos-Membres SECTION STYLE ----------- */
+
+#nos-membres {
+    background-color: #ffffff;
+}
+
+/* ----------- Contact SECTION STYLE ----------- */
+
+#contact {
+    background-color: #6E0B14;
+}
+
+
 
 span.next a {
     padding: 8px;
@@ -114,18 +186,48 @@ span.next a:hover {
     flex : 1 1 75%;
 }
 
-/* ----------- FOOTER STYLE ----------- */
-#footer {
+/* ------------------------------------------------------------------
+                 FOOTER STYLE 
+ ------------------------------------------------------------------ */
+ 
+ #footer {
+     font-family: 'Special Elite';
     position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: 10px;
-    background-color: #22332D;
+    padding: 10px 0;
+    background-color: #14132D;
     color: #E9EAE5;
 }
 
+.footer-content {
+    text-align: center;
+}
+
 #footer a {
-    color: #669A23;
+    color: #6E0B14;
     text-decoration: none;
+}
+
+/* ------------------------------------------------------------------
+                 FLEX LAYOUT
+ ------------------------------------------------------------------ */
+
+.columns-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.columns-container p, .columns-container h2{
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}
+
+.large-6 {
+    flex: 0 1 50%; 
+}
+
+.large-4 {
+    flex: 0 1 33%;  
 }
