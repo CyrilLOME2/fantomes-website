@@ -109,6 +109,19 @@ dark #22332D
     font-size: 30px;
     font-family: 'Lacquer';
     line-height: 1.5em;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 1.4em;
+}
+
+.site-title {
+    flex-basis: 80%;
+}
+
+.logo-link {
+    cursor: pointer;
+    height: 100%;
+    flex-basis: 10%;
 }
 
 /* ------------------------------------------------------------------
@@ -137,6 +150,7 @@ section .section-content {
     position: absolute;
     top: 20%;
     line-height: 1.2em;
+    padding: 0 20px;
 }
 
 /* ----------- About-Us SECTION STYLE ----------- */
@@ -203,7 +217,7 @@ span.next a:hover {
  ------------------------------------------------------------------ */
  
  #footer {
-     font-family: 'Special Elite';
+    font-family: 'Special Elite';
     position: relative;
     left: 0;
     bottom: 0;
@@ -264,4 +278,8 @@ span.next a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.logo {
+    height: 100%;
 }
