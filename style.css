@@ -76,8 +76,12 @@ b {
     font-weight: normal;
 }
 
-a {
+a.red-link {
     color: #6E0B14;
+    text-decoration: none;
+}
+a.yellow-link {
+    color: #EDCC3F;
     text-decoration: none;
 }
 
@@ -173,6 +177,14 @@ section .section-content {
 
 #contact {
     background-color: #6E0B14;
+}
+
+.contact-content {
+    padding: 10px;
+}
+
+#contact p {
+    color: #ffffff;
 }
 
 
@@ -282,4 +294,11 @@ span.next a:hover {
 
 .logo {
     height: 100%;
+}
+
+.large-image {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
